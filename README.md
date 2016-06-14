@@ -85,3 +85,23 @@ previous version with
 ```bash
 git diff --staged
 ```
+# Branching
+
+Create branch named history, then switch branch and verify (will display a `*` beside the current branch)
+
+```bash
+git branch 
+```
+
+Create a new branch called `history`
+
+```bash
+git branch history
+```
+
+Switch to a different branch (may overwrite files)
+
+```bash
+git checkout history
+```
+
