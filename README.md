@@ -64,3 +64,24 @@ first line of each message)
 ```bash
 git log
 ```
+
+You can view the changes that aren't staged yet with (you can specify a 
+file to just see the changes in that file)
+
+```bash
+git diff
+ ```
+
+You can view the changes that aren't staged yet 
+with (you can specify a file to just see the changes in that file)
+
+```bash
+git diff
+```
+
+You can view how the next version (the staged version) differs from the 
+previous version with
+
+```bash
+git diff --staged
+```
