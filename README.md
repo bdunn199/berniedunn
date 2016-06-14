@@ -85,6 +85,27 @@ previous version with
 ```bash
 git diff --staged
 ```
+View changes between Folder/Working tree and master
+
+```bash
+git diff master
+```
+
+View changes between two commits (see following section for overview on specifying commits)
+
+```bash
+git diff 3b12245 def106f
+```
+
+# Specifying commits
+
+Commits can be specified by
+
+* number: `def106f`
+* branch name: `master`
+* going back n steps: `master~$n` (replace `$n` with the number)
+* taking the nth branch: `master^$n`  (replace `$n` with the number)
+
 # Branching
 
 Create branch named history, then switch branch and verify (will display a `*` beside the current branch)
@@ -104,4 +125,3 @@ Switch to a different branch (may overwrite files)
 ```bash
 git checkout history
 ```
-
