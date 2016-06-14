@@ -10,7 +10,7 @@ git config --global user.email "twhitehead@gmail.com"
 git config --global color.ui auto
 ```
 ```bash 
-git config --global core.edit nano
+git config --global core.editor nano
 ```
 
 # Initialization 
