@@ -125,3 +125,45 @@ Switch to a different branch (may overwrite files)
 ```bash
 git checkout history
 ```
+To merge in the changes in another branch called history into the current branch
+
+```
+git merge history
+```
+
+To read the manual - git and branch options.....q to quit
+```bash
+man -k git
+
+man git-branch
+```
+
+To see the different ways of specifying commits (and groups of commits for things like log to show)
+
+```bash
+man gitrevisions
+```bash
+
+#Git online
+
+#To read about the licenses when you create a new project
+creativecommons.org/licenses
+
+git remote add github https://github.com/yourusername/GitNotes.git 
+git remote -v
+
+https://github.com/WikiSteve/gitnotes.git
+
+Erika   https://github.com/ErikaMunozTorres/GitNotes.git
+
+twhitehead - https://github.com/twhitehead/gitnotes.git
+Els: https://github.com/els1/gitnotes.git
+(Gordon) canadacoder - https://github.com/canadacoder/gitnotes.git
+
+# Send master branch (from your pc) to github online repository......you need your git-username and password
+```bash
+git push github master
+```bash
+
+(Gordon) canadacoder - twhitehead
+els1 - WikiSteve
